@@ -1,0 +1,29 @@
+.container-fluid {
+  display: inline-block !important;
+}
+
+.container-fluid form {
+  /* display: inline-block;  */
+  /* border: 2px solid red; */
+  width: auto;
+  /* margin: 1% 0% 0% 0%; */
+}
+
+.container-fluid form .row .btnn {
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+.container-fluid form .row .btnn .btn {
+
+  width: 12%;
+}
+.container-fluid form .row .error {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 2% 0%;
+  width: 34%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

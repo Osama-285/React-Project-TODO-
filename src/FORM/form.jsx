@@ -32,7 +32,7 @@ const SignUpForm = (props) => {
     if (age !== "") {
       // formIsValid = true;
       if (email !== "") {
-        formIsValid = true;
+//         formIsValid = true;
         if (!doesEmailExistInList()) {
           formIsValid = true;
         } else {
